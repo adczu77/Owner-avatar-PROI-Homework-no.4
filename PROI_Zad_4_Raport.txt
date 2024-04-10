@@ -1,0 +1,10 @@
+Raport z zadania 4:
+- napisany program posiada hierarchiczną strukturę klas
+- program dzieli się na klasy: worker, squad, bank;
+	bank dziedziczy po klasie squad, a squad dziedziczy po klasie worker
+- program zbudowany jest według kompozytu i umożliwia podliczenie sumy pensji wybranego pracownika, squadu czy całego banku,
+	każdy nadrzędny obiekt odnosi się do elementu poprzedniego żądając zwrotu sumy pensji elementu poprzedniego
+- sprytne wskaźniki wykorzystano w getterach, setterach oraz zwracania sumy pensji pracowników w przypadku squadu i banku,
+	ułatwiają one pracę ze względu na brak konieczności ich usuwania po skończonej pracy programu, a usuwają się automatycznie,
+	przyspieszają również działanie programu
+- zastosowane techniki pozwalają na szybszą pracę programu, lepsze przedstawienie struktury hierarchicznej oraz wszystkie typy obiektów obsługiwane są przez ten sam interfejs
